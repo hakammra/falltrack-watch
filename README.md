@@ -47,7 +47,7 @@ The final prototype integrates the sensors, microcontroller, communication modul
 
 # PCB Design
 
-<p> <img src="images/pcb_and_schematic/pcb_3d.jpeg" width="500"/></p>
+<p> <img src="images/pcb_and_schematic/pcb_3d.jpeg" width="400"/></p>
 
 Custom PCB design files are included in the repository.
 
@@ -147,7 +147,7 @@ Example UI:
 falltrack-watch
 │
 ├── firmware
-│   └── falltrack_code_v9.1
+│   └── falltrack_code
 │
 ├── hardware
 │   ├── enclosure_design
