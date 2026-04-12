@@ -162,21 +162,21 @@ falltrack-watch
 
 # Future Improvements
 
--GPS location tracking
--Machine learning based fall detection
--Custom low-power PCB
--Improved battery management system
--Smaller wearable enclosure
+- GPS location tracking
+- Machine learning based fall detection
+- Custom low-power PCB
+- Improved battery management system
+- Smaller wearable enclosure
 
 ---
 
 # Authors
 
--**Abdul Hakam**
--**Manjari Maneesha**
--**Shaahid Ahamad**
--**Umair**
--Electronic Engineering Students
+- **Abdul Hakam**
+- **Manjari Maneesha**
+- **Shaahid Ahamad**
+- **Umair**
+Electronic Engineering Students
 
 ---
 
