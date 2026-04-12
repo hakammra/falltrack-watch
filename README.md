@@ -47,7 +47,7 @@ The final prototype integrates the sensors, microcontroller, communication modul
 
 # PCB Design
 
-<p> <img src="images/pcb_and_schematic/pcb_3d.jpeg" width="300"/>  <img src="images/pcb_and_schematic/pcb_wiring.jpeg" width="300"/>  </p>
+<p> <img src="images/pcb_and_schematic/pcb_3d.jpeg" width="300"/>      <img src="images/pcb_and_schematic/pcb_wiring.jpeg" width="305"/>  </p>
 
 Custom PCB design files are included in the repository.
 
