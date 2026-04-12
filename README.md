@@ -1,69 +1,191 @@
-# FALL TRACK – Fall Detection & Heart Rate Monitoring Watch
+# FALL TRACK – Smart Fall Detection & Heart Rate Monitoring Watch
+
+![Project Banner](images/prototype.jpg)
 
 ## Overview
 
-FALL TRACK is a wearable safety device designed to detect falls and monitor heart rate in real time. The device is intended for elderly individuals or people with medical conditions where falls or abnormal heart rate could be dangerous.
+**FALL TRACK** is a wearable safety device designed to detect falls and monitor heart rate in real time.
+The device is intended for elderly individuals or people with medical conditions where falls or abnormal heart rate could be dangerous.
 
-This project was developed as a personal engineering project during my first year studying Electronic Engineering.
+This project was developed as a personal hardware–software project during my **first year studying Electronic Engineering**.
 
-The device continuously monitors motion and pulse rate. If a fall is detected, it checks the user’s heart rate and sends an alert to caregivers.
-
----
-
-## Features
-
-* Fall detection using MPU6050 accelerometer and gyroscope
-* Heart rate monitoring using MAX3012 sensor
-* SMS alert system using SIM800L GSM module
-* Low-power wearable design powered by a 3.7V LiPo battery
-* Push-button interaction for device control
-* WiFi alert capability for cloud notifications
-* Compact watch/bracelet style form factor
+The system combines **motion sensing, heart rate monitoring, wireless communication, and a mobile application** to create a complete fall detection and alert system.
 
 ---
 
-## Hardware Used
+# Key Features
 
-* ESP8266 (ESP-12F)
-* MPU6050 IMU sensor
-* MAX3012 Pulse sensor
-* SIM800L GSM module
-* 3.7V LiPo battery
-* Push button
-* Buzzer
-* OLED display
-
----
-
-## How It Works
-
-1. The MPU6050 continuously monitors acceleration and orientation.
-2. When a fall pattern is detected, the system verifies the user’s pulse.
-3. If the pulse is abnormal or no response is detected, the system triggers an alert.
-4. An SMS alert is sent to predefined contacts using the GSM module.
+• Fall detection using **MPU6050 accelerometer and gyroscope**
+• Heart rate monitoring using **MAX3012 optical pulse sensor**
+• **SMS alerts using SIM800L GSM module**
+• **WiFi connectivity** for mobile app communication
+• **OLED display interface** showing time, heart rate, and connection status
+• **Flutter mobile application** for configuration and monitoring
+• **Push-button controls** for device interaction
+• **Portable LiPo battery powered wearable design**
 
 ---
 
-## Applications
+# System Architecture
 
-* Elderly fall detection
-* Remote health monitoring
-* Personal safety wearables
-* Medical alert systems
+![System Architecture](images/system_architecture.png)
 
----
+### Working Principle
 
-## Future Improvements
-
-* GPS location tracking
-* Mobile app integration
-* Machine learning based fall detection
-* Smaller custom PCB design
-* Improved battery life
+1. MPU6050 continuously monitors motion and orientation.
+2. A fall detection algorithm identifies sudden acceleration and orientation change.
+3. If a fall is detected, the system checks the user's heart rate using MAX3012.
+4. If an abnormal condition is detected, an alert is triggered.
+5. The system sends an **SMS alert via SIM800L** and can notify through the **mobile app via WiFi**.
 
 ---
 
-## Author
+# Final Prototype
 
-Abdul Hakam
-First Year Electronic Engineering Student
+![Final Product](images/final_product/image_3.jpeg)
+
+The final prototype integrates the sensors, microcontroller, communication modules, and display into a **compact wearable form factor**.
+
+---
+
+# PCB Design
+
+![PCB Render](images/pcb_and_schematic/pcb_3d.jpeg)
+
+Custom PCB design files are included in the repository.
+
+Location:
+
+```
+hardware/pcb_design/
+```
+
+Included files:
+
+* PCB layout
+* Schematic
+* Gerber files for manufacturing
+
+---
+
+# 3D Enclosure Design
+
+![3D Design](images/enclosure/3d_1.jpeg)
+
+The wearable enclosure was designed to house the electronics in a **compact smartwatch-style case**.
+
+Location of CAD files:
+
+```
+hardware/3d_design/
+```
+
+Files included:
+
+* `.STL` files for 3D printing
+* `.STEP` files for CAD editing
+
+---
+
+# Hardware Components
+
+| Component         | Description                       |
+| ----------------- | --------------------------------- |
+| ESP8266 (ESP-12F) | Main microcontroller              |
+| MPU6050           | Motion sensing for fall detection |
+| MAX3012           | Optical heart rate sensor         |
+| SIM800L           | GSM module for SMS alerts         |
+| OLED Display      | User interface                    |
+| Push Button       | Device control                    |
+| Buzzer            | Alert feedback                    |
+| 3.7V LiPo Battery | Portable power source             |
+
+---
+
+# Firmware
+
+The embedded firmware is located in:
+
+```
+firmware/esp8266_watch/
+```
+
+Main functions of the firmware:
+
+* Sensor data acquisition
+* Fall detection algorithm
+* Heart rate measurement
+* GSM communication
+* WiFi communication
+* OLED display interface
+* User button interaction
+
+---
+
+# Mobile Application
+
+A **Flutter-based mobile application** was developed to interact with the device.
+
+Location:
+
+```
+mobile_app/falltrack_flutter_app/
+```
+
+App Features:
+
+• Connects to the ESP8266 device
+• Allows WiFi configuration
+• Displays fall alerts
+• Shows device status and heart rate data
+• Stores alert history
+
+Example UI:
+
+![Mobile App](images/mobile_app_ui.png)
+
+---
+
+# Repository Structure
+
+```
+falltrack-watch
+│
+├── firmware
+│   └── esp8266_watch
+│
+├── mobile_app
+│   └── falltrack_flutter_app
+│
+├── hardware
+│   ├── pcb_design
+│   ├── schematics
+│   └── 3d_design
+│
+├── images
+│
+└── docs
+```
+
+---
+
+# Future Improvements
+
+• GPS location tracking
+• Machine learning based fall detection
+• Custom low-power PCB
+• Improved battery management system
+• Smaller wearable enclosure
+
+---
+
+# Author
+
+**Abdul Hakam**
+Electronic Engineering Student
+
+---
+
+# License
+
+This project is released under the **MIT License**.
