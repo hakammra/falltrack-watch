@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "572494928047",
+    "firebase_url": "https://falltrack-default-rtdb.firebaseio.com",
+    "project_id": "falltrack",
+    "storage_bucket": "falltrack.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572494928047:android:f21bf4766361a00203dc5a",
+        "android_client_info": {
+          "package_name": "falltrack.entc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVneOGQdkqNx1whDwYg2_n5UrkSPc19Do"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

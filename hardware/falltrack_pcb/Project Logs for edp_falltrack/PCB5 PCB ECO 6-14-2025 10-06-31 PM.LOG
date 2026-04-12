@@ -1,0 +1,62 @@
+Removed Pin From Net: NetName=3.7V Pin=battery-1
+Removed Pin From Net: NetName=GND Pin=battery-2
+Removed Pin From Net: NetName=GND Pin=Buzzer-1
+Change Component Footprint: Designator=Buzzer Old Footprint=61300211121 New Footprint=SMTC-TSW-104-08-X-S
+Change Component Footprint: Designator=battery Old Footprint=61300211121 New Footprint=SMTC-TSW-106-07-X-S
+Change Component Comment : Designator=Buzzer Old Comment=61300211121 New Comment=TSW-104-08-G-S
+Change Component Comment : Designator=battery Old Comment=61300211121 New Comment=TSW-106-07-F-S
+Change Managed Component Library Link : Designator=battery Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=E6B3379A-03D8-40ED-ADD4-897EDD19A437 New ItemGUID=1F85C31D-C081-429E-9D04-B780CDF67C90 Old RevisionGUID=2D70432C-B35C-4616-971C-53D344D87134 New RevisionGUID=E3BE251F-61FB-4FD3-8616-C99178EE7B5F
+Change Managed Component Library Link : Designator=Buzzer Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=E6B3379A-03D8-40ED-ADD4-897EDD19A437 New ItemGUID=3AED76DB-8E57-4F91-80AC-4F3212C0D6E3 Old RevisionGUID=2D70432C-B35C-4616-971C-53D344D87134 New RevisionGUID=67539129-B97E-46C8-850F-4CCF53EBD3ED
+Change component parameters: Designator = "battery" ("Battery"); Footprint = "61300211121"; UniqueID = "\GGOJJNVW" ("\GGOJJNVW")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.samtec.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.samtec.com/documents/webfiles/pdf/TSW_TH.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.samtec.com/documents/webfiles/cpdf/TSW-XXX-XX-XXX-X-XX-XXX-MKT.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "F-214"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Through-hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = ".025[0.64] SQ. Post Terminal Strip Assembly"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "TSW-106-07-X-S"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "DM, 8/1988"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "TSW-106-07-F-S"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range"; Value = "-55 to 125 degC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Buzzer" ("BUZZER"); Footprint = "61300211121"; UniqueID = "\YVEDMVHT" ("\YVEDMVHT")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.samtec.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.samtec.com/documents/webfiles/pdf/TSW_TH.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.samtec.com/documents/webfiles/cpdf/TSW-XXX-XX-XXX-X-XX-XXX-MKT.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "F-214"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Through-hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = ".025[0.64] SQ. Post Terminal Strip Assembly"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "TSW-104-08-X-S"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "DM, 8/1988"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "TSW-104-08-G-S"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range"; Value = "-55 to 125 degC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=battery-1
+Added Pin To Net: NetName=3.7V Pin=battery-6
+Added Pin To Net: NetName=GND Pin=Buzzer-4
+Added Pin To Net: NetName=NetBUZZER_1 Pin=Buzzer-1
+Added Pin To Net: NetName=NetBUZZER_1 Pin=ESP12F-5
+Added Net: Name=NetBUZZER_1
+Added Member To Class: ClassName=Sheet3 Member=Component 3.3V Voltage Regulator XC6219B332MR
+Added Member To Class: ClassName=Sheet3 Member=Component Battery TSW-106-07-F-S
+Added Member To Class: ClassName=Sheet3 Member=Component BUZZER TSW-104-08-G-S
+Added Member To Class: ClassName=Sheet3 Member=Component C2 1µF
+Added Member To Class: ClassName=Sheet3 Member=Component ESP12F ESP-12FESP8266MOD
+Added Member To Class: ClassName=Sheet3 Member=Component MAX30102 TSW-104-08-G-S
+Added Member To Class: ClassName=Sheet3 Member=Component MPU6050 TSW-104-08-G-S
+Added Member To Class: ClassName=Sheet3 Member=Component Program Switch PTS645SM43SMTR92LFS
+Added Member To Class: ClassName=Sheet3 Member=Component R2 10k
+Added Member To Class: ClassName=Sheet3 Member=Component Reset Switch PTS645SM43SMTR92LFS
+Added Member To Class: ClassName=Sheet3 Member=Component SIM800L TSW-106-07-F-S

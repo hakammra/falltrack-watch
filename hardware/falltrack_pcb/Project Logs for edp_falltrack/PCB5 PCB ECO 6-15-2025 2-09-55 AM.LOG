@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=buzzer-N
+Removed Pin From Net: NetName=NetESP12F_5 Pin=buzzer-P
+Removed Member From Class: ClassName=Sheet3 Member=buzzer
+Change Component Designator: OldDesignator=batS NewDesignator=bat switch
+Add Component: Footprint Not Found CMT-8530S-SMT-TR_CUD
+Add Pin To Net: Unknown Pin: Pin XMER?-2
+Add Pin To Net: Unknown Pin: Pin XMER?-3
+Added Member To Class: ClassName=Sheet3 Member=Component ESP12F ESP-12FESP8266MOD
+Add Class Member: Failed to add class member : Component XMER? CMT-8530S-SMT-TR

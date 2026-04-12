@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=GND Pin=wifi-3
+Added Pin To Net: NetName=NetESP12F_6 Pin=ESP12F-6
+Added Pin To Net: NetName=NetESP12F_6 Pin=wifi-4
+Added Net: Name=NetESP12F_6

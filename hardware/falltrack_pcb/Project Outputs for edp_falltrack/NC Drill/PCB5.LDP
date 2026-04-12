@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\abdul\Downloads\edp_falltrack\PCB5.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=pcb5-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=pcb5-nonplated.txt|DrillLayers=gtl,gbl

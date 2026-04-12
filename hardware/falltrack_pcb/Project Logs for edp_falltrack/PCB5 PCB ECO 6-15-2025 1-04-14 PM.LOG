@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GND Pin=Program Switch-2
+Removed Pin From Net: NetName=NetESP12F_18 Pin=Program Switch-3
+Removed Pin From Net: NetName=GND Pin=Reset Switch-2
+Removed Pin From Net: NetName=NetESP12F_1 Pin=Reset Switch-3
+Removed Member From Class: ClassName=Sheet3 Member=Program Switch
+Removed Member From Class: ClassName=Sheet3 Member=Reset Switch
+Add Component: Footprint Not Found SW_PTS636_CNK
+Add Component: Footprint Not Found SW_PTS636_CNK
+Add Pin To Net: Unknown Pin: Pin Programming-1
+Add Pin To Net: Unknown Pin: Pin Programming-2
+Add Pin To Net: Unknown Pin: Pin Reset-1
+Add Pin To Net: Unknown Pin: Pin Reset-2
+Add Class Member: Failed to add class member : Component Programming PTS636 SM50J SMTR LFS
+Add Class Member: Failed to add class member : Component Reset PTS636 SM50J SMTR LFS

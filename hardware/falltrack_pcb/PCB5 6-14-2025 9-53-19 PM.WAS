@@ -1,0 +1,15 @@
+Program Switch Program Switch1
+MPU6050 MPU1
+Reset Switch Reset Switch1
+R3 R2
+C2 C1
+R4 R3
+ESP12F ESP1
+R6 R4
+C1 C2
+3.3V Voltage Regulator 1
+battery battery1
+Buzzer Buzzer1
+R2 R6
+MAX30102 MAX1
+SIM800L SIM1

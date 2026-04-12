@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=LS? NewDesignator=Buzzer
+Change Component Designator: OldDesignator=Prog NewDesignator=Programming
+Change Net Name : Old Net Name=NetESP12F_5 New Net Name=NetBuzzer_P

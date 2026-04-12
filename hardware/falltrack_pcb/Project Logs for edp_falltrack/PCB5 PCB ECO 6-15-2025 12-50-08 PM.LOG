@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=Net3.3V Voltage Regulator_1 Pin=bat S-1
+Removed Member From Class: ClassName=Sheet3 Member=bat S
+Added Pin To Net: NetName=Net3.3V Voltage Regulator_1 Pin=battery-6
+Added Pin To Net: NetName=Net3.3V Voltage Regulator_1 Pin=SIM800L-2
+Change Net Name : Old Net Name=Net3.3V Voltage Regulator_1 New Net Name=3.7V
+Added Member To Class: ClassName=Sheet3 Member=Component buzzer CMT-8530S-SMT

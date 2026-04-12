@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=Buzzer-4
+Removed Member From Class: ClassName=Sheet3 Member=Buzzer
+Change Component Designator: OldDesignator=batS NewDesignator=bat switch
+Added Component: Designator=LS?(CUI_CMT-8530S-SMT)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CMT-8530S-SMT-TR/Same+Sky/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Same Sky"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CMT-8530S-SMT-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CMT-8530S-SMT-TR/Same+Sky/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=LS?-N
+Added Pin To Net: NetName=NetESP12F_5 Pin=ESP12F-5
+Added Pin To Net: NetName=NetESP12F_5 Pin=LS?-P
+Added Net: Name=NetESP12F_5
+Added Member To Class: ClassName=Sheet3 Member=Component LS? CMT-8530S-SMT

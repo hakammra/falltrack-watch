@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=B--1
+Removed Member From Class: ClassName=Sheet3 Member=B+
+Removed Member From Class: ClassName=Sheet3 Member=B-
+Added Component: Designator=LS?(CUI_CMI-9653S-SMT)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CMI-9653S-SMT-TR/Same+Sky/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Same Sky"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CMI-9653S-SMT-TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CMI-9653S-SMT-TR/Same+Sky/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=LS?-N
+Added Pin To Net: NetName=NetESP12F_5 Pin=ESP12F-5
+Added Pin To Net: NetName=NetESP12F_5 Pin=LS?-P
+Added Net: Name=NetESP12F_5
+Added Member To Class: ClassName=Sheet3 Member=Component LS? CMI-9653S-SMT

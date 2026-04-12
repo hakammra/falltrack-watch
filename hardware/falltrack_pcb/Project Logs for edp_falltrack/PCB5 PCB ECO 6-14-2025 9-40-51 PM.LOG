@@ -1,0 +1,23 @@
+Change Component Footprint: Designator=SIM800L Old Footprint=SMTC-TSW-106-08-X-S-RA New Footprint=SMTC-TSW-106-07-X-S
+Change Component Comment : Designator=SIM800L Old Comment=TSW-106-08-L-S-RA New Comment=TSW-106-07-F-S
+Change Managed Component Library Link : Designator=SIM800L Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=8039CD3C-8614-4AA2-9570-E58F1DD2CF9C New ItemGUID=1F85C31D-C081-429E-9D04-B780CDF67C90 Old RevisionGUID=18501FAC-B68B-4723-9627-3F2C559E6153 New RevisionGUID=E3BE251F-61FB-4FD3-8616-C99178EE7B5F
+Change component parameters: Designator = "SIM800L" ("SIM800L"); Footprint = "SMTC-TSW-106-08-X-S-RA"; UniqueID = "\CIAFMYHA" ("\CIAFMYHA")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.samtec.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.samtec.com/documents/webfiles/pdf/TSW_TH.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.samtec.com/documents/webfiles/cpdf/TSW-XXX-XX-XXX-X-XX-XXX-MKT.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "F-214"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Through-hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = ".025[0.64] SQ. Post Terminal Strip Assembly"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "TSW-106-07-X-S"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "DM, 8/1988"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "TSW-106-07-F-S"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range"; Value = "-55 to 125 degC"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Sheet3 Member=Component ESP12F ESP-12FESP8266MOD
+Added Member To Class: ClassName=Sheet3 Member=Component SIM800L TSW-106-07-F-S
