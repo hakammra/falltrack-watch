@@ -49,7 +49,7 @@ The final prototype integrates the sensors, microcontroller, communication modul
 
 # PCB Design
 
-<p> <img src="images/pcb_and_schematic/pcb_3d.jpeg" width="500"/> </p>
+<p> <img src="images/pcb_and_schematic/pcb_3d.jpeg" width="300"/><img src="images/pcb_and_schematic/pcb_wiring.jpeg" width="300"/>  </p>
 
 Custom PCB design files are included in the repository.
 
@@ -76,7 +76,7 @@ The wearable enclosure was designed to house the electronics in a **compact smar
 Location of CAD files:
 
 ```
-hardware/3d_design/
+hardware/enclosure_design/
 ```
 
 Files included:
@@ -105,7 +105,7 @@ Files included:
 The embedded firmware is located in:
 
 ```
-firmware/esp8266_watch/
+firmware/falltrack_code/
 ```
 
 Main functions of the firmware:
@@ -126,7 +126,7 @@ A **Flutter-based mobile application** was developed to interact with the device
 Location:
 
 ```
-mobile_app/falltrack_flutter_app/
+mobile_app/
 ```
 
 App Features:
@@ -152,16 +152,12 @@ falltrack-watch
 │   └── falltrack_code_v9.1
 │
 ├── mobile_app
-│   └── falltrack_flutter_app
 │
 ├── hardware
-│   ├── enclosure
-│   ├── schematics
-│   └── 3d_design
+│   ├── enclosure_design
+│   └── pcb_design
 │
-├── images
-│
-└── docs
+└── images
 ```
 
 ---
