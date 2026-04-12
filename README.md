@@ -1,7 +1,5 @@
 # FALL TRACK – Smart Fall Detection & Heart Rate Monitoring Watch
 
-![Project Banner](images/prototype.jpg)
-
 ## Overview
 
 **FALL TRACK** is a wearable safety device designed to detect falls and monitor heart rate in real time.
@@ -17,7 +15,6 @@ The system combines **motion sensing, heart rate monitoring, wireless communicat
 
 • Fall detection using **MPU6050 accelerometer and gyroscope**
 • Heart rate monitoring using **MAX3012 optical pulse sensor**
-• **SMS alerts using SIM800L GSM module**
 • **WiFi connectivity** for mobile app communication
 • **OLED display interface** showing time, heart rate, and connection status
 • **Flutter mobile application** for configuration and monitoring
