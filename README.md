@@ -13,13 +13,11 @@ The system combines **motion sensing, heart rate monitoring, wireless communicat
 
 # Key Features
 
-• Fall detection using **MPU6050 accelerometer and gyroscope**
-• Heart rate monitoring using **MAX3012 optical pulse sensor**
-• **WiFi connectivity** for mobile app communication
-• **OLED display interface** showing time, heart rate, and connection status
-• **Flutter mobile application** for configuration and monitoring
-• **Push-button controls** for device interaction
-• **Portable LiPo battery powered wearable design**
+- Fall detection using MPU6050 accelerometer and gyroscope  
+- Heart rate monitoring using MAX3012 sensor  
+- WiFi connectivity for mobile app integration  
+- OLED display for real-time feedback  
+- Portable battery-powered wearable design  
 
 ---
 
