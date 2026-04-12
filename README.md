@@ -93,7 +93,6 @@ Files included:
 | ESP8266 (ESP-12F) | Main microcontroller              |
 | MPU6050           | Motion sensing for fall detection |
 | MAX3012           | Optical heart rate sensor         |
-| SIM800L           | GSM module for SMS alerts         |
 | OLED Display      | User interface                    |
 | Push Button       | Device control                    |
 | Buzzer            | Alert feedback                    |
@@ -114,7 +113,6 @@ Main functions of the firmware:
 * Sensor data acquisition
 * Fall detection algorithm
 * Heart rate measurement
-* GSM communication
 * WiFi communication
 * OLED display interface
 * User button interaction
@@ -141,7 +139,7 @@ App Features:
 
 Example UI:
 
-![Mobile App](images/mobile_app_ui.png)
+<p><img src="images/app/app_home.jpeg" width="200"/> <img src="images/app/app_settings.jpeg" width="200" /></p>
 
 ---
 
