@@ -139,7 +139,7 @@ App Features:
 
 Example UI:
 
-<p><img src="images/app/app_home.jpeg" width="200"/> <img src="images/app/app_settings.jpeg" width="200" /></p>
+<p><img src="images/app/app_home.jpeg" width="200"/> <img src="images/app/app_settings.jpeg" width="220" /></p>
 
 ---
 
