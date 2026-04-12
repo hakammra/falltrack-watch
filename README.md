@@ -139,7 +139,7 @@ App Features:
 
 Example UI:
 
-<p><img src="images/app/app_home.jpeg" width="200"/> <img src="images/app/app_settings.jpeg" width="220" /></p>
+<p><img src="images/app/app_home.jpeg" width="200"/> <img src="images/app/app_settings.jpeg" width="218" /></p>
 
 ---
 
@@ -149,13 +149,13 @@ Example UI:
 falltrack-watch
 │
 ├── firmware
-│   └── esp8266_watch
+│   └── falltrack_code_v9.1
 │
 ├── mobile_app
 │   └── falltrack_flutter_app
 │
 ├── hardware
-│   ├── pcb_design
+│   ├── enclosure
 │   ├── schematics
 │   └── 3d_design
 │
@@ -176,13 +176,16 @@ falltrack-watch
 
 ---
 
-# Author
+# Authors
 
 **Abdul Hakam**
-Electronic Engineering Student
+**Manjari Maneesha**
+**Shaahid Ahamad**
+**Umair**
+Electronic Engineering Students
 
 ---
 
 # License
 
-This project is released under the **MIT License**.
+This project is released as **open source**.
