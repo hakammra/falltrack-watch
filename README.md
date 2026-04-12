@@ -69,7 +69,7 @@ Included files:
 
 # 3D Enclosure Design
 
-<p> <img src="images/enclosure/3d_1.jpeg" width="400"/> <img src="images/enclosure/3d_3.jpeg" width="400"/> </p>
+<p> <img src="images/enclosure/3d_1.jpeg" width="500"/> <img src="images/enclosure/3d_3.jpeg" width="500"/> </p>
 
 The wearable enclosure was designed to house the electronics in a **compact smartwatch-style case**.
 
