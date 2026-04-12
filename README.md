@@ -3,9 +3,9 @@
 ## Overview
 
 **FALL TRACK** is a wearable safety device designed to detect falls and monitor heart rate in real time.
-The device is intended for elderly individuals or people with medical conditions where falls or abnormal heart rate could be dangerous.
+The device is intended for elderly individuals or people with medical conditions where falls along with abnormal heart rate could be dangerous.
 
-This project was developed as a personal hardware–software project during my **first year studying Electronic Engineering**.
+This project was developed as a personal hardware–software project during our **first year studying Electronic & Telecommunication Engineering**.
 
 The system combines **motion sensing, heart rate monitoring, wireless communication, and a mobile application** to create a complete fall detection and alert system.
 
@@ -149,12 +149,14 @@ falltrack-watch
 ├── firmware
 │   └── falltrack_code_v9.1
 │
-│
 ├── hardware
 │   ├── enclosure_design
 │   └── pcb_design
+│ 
 ├── images
+│ 
 └── mobile_app
+    └── falltrack_app
 ```
 
 ---
