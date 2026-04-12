@@ -49,7 +49,7 @@ The final prototype integrates the sensors, microcontroller, communication modul
 
 # PCB Design
 
-![PCB Render](images/pcb_and_schematic/pcb_3d.jpeg)
+<p> <img src="images/pcb_and_schematic/pcb_3d.jpeg" width="500"/> </p>
 
 Custom PCB design files are included in the repository.
 
@@ -69,7 +69,7 @@ Included files:
 
 # 3D Enclosure Design
 
-![3D Design](images/enclosure/3d_1.jpeg)
+<p> <img src="images/enclosure/3d_1.jpeg" width="400"/> <img src="images/enclosure/3d_3.jpeg" width="400"/> </p>
 
 The wearable enclosure was designed to house the electronics in a **compact smartwatch-style case**.
 
