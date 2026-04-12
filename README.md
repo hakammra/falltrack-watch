@@ -25,7 +25,9 @@ The system combines **motion sensing, heart rate monitoring, wireless communicat
 
 # System Architecture
 
-![System Architecture](images/system_architecture.jpeg)
+<p>
+  <img src="images/system_architecture.jpeg" width="200"/>
+</p>
 
 ### Working Principle
 
