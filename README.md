@@ -35,13 +35,13 @@ The system combines **motion sensing, heart rate monitoring, wireless communicat
 2. A fall detection algorithm identifies sudden acceleration and orientation change.
 3. If a fall is detected, the system checks the user's heart rate using MAX3012.
 4. If an abnormal condition is detected, an alert is triggered.
-5. The system sends an **SMS alert via SIM800L** and can notify through the **mobile app via WiFi**.
+5. The system can notify through the **mobile app via WiFi**.
 
 ---
 
 # Final Prototype
 
-![Final Product](images/final_product/image_3.jpeg)
+<p> <img src="images/final_product/image_3.jpeg" width="500"/> </p>
 
 The final prototype integrates the sensors, microcontroller, communication modules, and display into a **compact wearable form factor**.
 
