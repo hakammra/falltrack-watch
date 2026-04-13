@@ -174,7 +174,7 @@ falltrack-watch
 # Authors
 
 - **Abdul Hakam**
-- **Manjari Maneesha**
+- **Manjari Manesha**
 - **Shaahid Ahamad**
 - **Umair**
 <p>Electronic & Telecommunication Engineering Students</p>
