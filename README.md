@@ -134,8 +134,9 @@ App Features:
 • Displays fall alerts
 • Shows device status and heart rate data
 • Stores alert history
+• Allows sharing among multiple caretakers 
 
-Example UI:
+Our UI:
 
 <p><img src="images/app/app_home.jpeg" width="200"/></p>
 
@@ -168,6 +169,7 @@ falltrack-watch
 - Custom low-power PCB
 - Improved battery management system
 - Smaller wearable enclosure
+- Automatic SOS Calls
 
 ---
 
