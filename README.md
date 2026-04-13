@@ -39,7 +39,7 @@ The system combines **motion sensing, heart rate monitoring, wireless communicat
 
 # Final Prototype
 
-<p> <img src="images/final_product/image_2.jpeg" width="500"/> </p>
+<p> <img src="images/final_product/image_1.jpeg" width="500"/> </p>
 
 The final prototype integrates the sensors, microcontroller, communication modules, and display into a **compact wearable form factor**.
 
